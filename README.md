@@ -1,15 +1,18 @@
-# driver-drowsiness-detection-using-deep-learning
-this a deep learning model used to detect drivers drowsiness and make alarm to alert the driver 
-we created this model to avoid accidents caused by sleepy nature of drivers while driving
+# Driver Drowsiness Detection using Deep Learning
+This project focuses on detecting driver drowsiness using deep learning techniques. The model is trained on a dataset of driver images to recognize signs of drowsiness and alert the driver accordingly.
 
-install the modules required 
-1.tensorflow
-2.keras
-3.numpy
-4.pygame
-5.open cv
-6.matplotlib
+# Features
+1)Implements deep learning algorithms for image analysis.
 
-#download the data set from kaggle
+2)Detects facial expressions and eye movements indicative of drowsiness using Haar cascades.
 
-make the haar-cascade-files as a folder and cnncat2.h5 as a folder named model
+3)Raises alerts or notifications based on the detected drowsiness level.
+
+# Requirements
+1)Python 3.x
+
+2)TensorFlow
+
+3)Keras
+
+4)OpenCV
